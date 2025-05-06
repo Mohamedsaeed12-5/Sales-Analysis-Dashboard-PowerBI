@@ -80,5 +80,5 @@ This project is one step in my journey — and many more dashboards and data sto
 
 ## 🔗 Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/your-profile/)
-- [GitHub](https://github.com/your-username)
+- [LinkedIn](https://www.linkedin.com/in/mohammed-saeed-4148b423b/)
+- [GitHub](https://github.com/Mohamedsaeed12-5)
