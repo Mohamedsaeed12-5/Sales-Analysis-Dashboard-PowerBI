@@ -71,13 +71,6 @@ The report includes:
 
 ---
 
-## 🙋‍♂️ About Me
-
-I’m currently building my skills in data analysis and Power BI, aiming to become a professional Data Analyst.  
-This project is one step in my journey — and many more dashboards and data stories are on the way, God willing.
-
----
-
 ## 🔗 Connect with Me
 
 - [LinkedIn](https://www.linkedin.com/in/mohammed-saeed-4148b423b/)
