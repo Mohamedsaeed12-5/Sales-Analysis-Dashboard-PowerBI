@@ -1,3 +1,6 @@
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 # Sales-Analysis-Dashboard-PowerBI
 
 This project is an **interactive sales dashboard** developed using Power BI as part of my training at the **Information Technology Institute (ITI)**.  
@@ -39,9 +42,14 @@ The report includes:
 
 ## 📷 Screenshots
 
-> *(Add screenshots from your Power BI dashboard here)*  
-> For example:
-> ![Dashboard Overview](images/dashboard-overview.png)
+### 🔹 Dashboard Overview
+![Dashboard](Dashboard.png)
+
+### 🔹 Detailed Report View
+![Detailed Report](Detailed%20Report.png)
+
+### 🔹 Data Model in Power BI
+![Model](Model.png)
 
 ---
 
