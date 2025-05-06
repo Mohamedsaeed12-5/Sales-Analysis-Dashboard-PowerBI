@@ -54,3 +54,23 @@ The report includes:
 ---
 
 ## 📁 Project Structure
+
+📦 Sales-Analysis-Dashboard
+┣ 📂 images
+┃ ┗ 📷 dashboard-overview.png
+┣ 📄 Sales_Dashboard.pbix
+┣ 📄 README.md
+
+---
+
+## 🙋‍♂️ About Me
+
+I’m currently building my skills in data analysis and Power BI, aiming to become a professional Data Analyst.  
+This project is one step in my journey — and many more dashboards and data stories are on the way, God willing.
+
+---
+
+## 🔗 Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/your-profile/)
+- [GitHub](https://github.com/your-username)
