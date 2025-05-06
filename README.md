@@ -4,70 +4,78 @@
 # Sales-Analysis-Dashboard-PowerBI
 
 This project is an **interactive sales dashboard** developed using Power BI as part of my training at the **Information Technology Institute (ITI)**.  
-It provides key insights into the sales performance, shipping efficiency, and revenue distribution.
+It provides key insights into sales performance, shipping efficiency, and regional revenue distribution.
 
 ---
 
-## 📊 Dashboard Highlights
+## 🧩 Data Model Overview
 
-The report includes:
+The data model follows a star schema structure to support efficient reporting and analysis.
 
-- ✅ **Total Orders and Quantities**
-- ✅ **Yearly Trends and Shipping Methods**
-- ✅ **Top-Performing Salespeople**
-- ✅ **Revenue Distribution by Region**
+- The **fact table** `OrderDetail` contains essential numeric measures such as `LineTotal`, `TaxAmt`, `Freight`, and due dates.
+- It connects to several **dimension tables**, including:
+  - `Dates`: for filtering and comparing by Order, Ship, and Due Dates.
+  - `Products`: for category-based analysis.
+  - `SalesPeople`: for performance metrics.
+  - `Territories`: for regional insights.
+  - `Status` and `ShipMethods`: to analyze order status and shipping channels.
 
----
-
-## 🔍 Key Metrics
-
-| Metric         | Description |
-|----------------|-------------|
-| **# Orders**   | Total number of unique customer orders |
-| **Count Ship** | Number of orders shipped (based on Ship Date) |
-| **Count Due**  | Orders that have a due date – useful for tracking pending payments |
-| **Total Due**  | Total amount due for all orders |
-| **Tax, Freight** | Breakdown of additional financial charges |
-
----
-
-## 🛠 Skills Applied
-
-- **Power BI**: Data Cleaning, Data Modeling, and DAX
-- **KPI Design**: Creating meaningful business indicators
-- **Data Visualization**: Building clear and interactive reports
-- **Data Storytelling**: Transforming raw data into business insights
-
----
-
-## 📷 Screenshots
-
-### 🔹 Dashboard Overview
-![Dashboard](Dashboard.png)
-
-### 🔹 Detailed Report View
-![Detailed Report](Detailed%20Report.png)
+This setup enables flexible time-based comparisons and clear relationship management in the model.
 
 ### 🔹 Data Model in Power BI
 ![Model](Model.png)
 
 ---
 
-## ▶️ How to Use
+## 📊 Dashboard Highlights
 
-1. Download the file: `Sales_Dashboard.pbix`
-2. Open it using [Power BI Desktop](https://powerbi.microsoft.com/)
-3. Explore the visualizations and DAX measures used
+The dashboard provides an overview of the entire sales pipeline.
+
+Key insights include:
+
+- The total number of orders and total quantity sold.
+- Sales trends across years (notably higher in 2007).
+- Online orders make up the vast majority.
+- All orders in the dataset are marked as "Shipped".
+- Most orders were delivered via the XRQ - TRUCK shipping method.
+
+Top-performing product categories include:
+
+- **Bikes** with the highest quantity sold.
+- Followed by **Clothing**, **Accessories**, and **Components**.
+
+In terms of revenue by region:
+
+- The **Southwest** territory generated the highest revenue, followed by **Canada** and **Northwest**.
+- **Germany** had the lowest order count.
+
+### 🔹 Dashboard Overview
+![Dashboard](Dashboard.png)
 
 ---
 
-## 📁 Project Structure
+## 🏆 Top Salespeople Insights
 
-📦 Sales-Analysis-Dashboard
-┣ 📂 images
-┃ ┗ 📷 dashboard-overview.png
-┣ 📄 Sales_Dashboard.pbix
-┣ 📄 README.md
+- **Jillian Carson** is the top-performing salesperson with over 450 orders.
+- Other key contributors include Michael G Blythe, Tsvi Reiter, and Linda C Mitchell.
+- Sales distribution among the team shows a clear concentration in the top five performers.
+
+### 🔹 Detailed Report View
+![Detailed Report](Detailed%20Report.png)
+
+---
+
+## 🛠 Skills Applied
+
+This project helped me apply and develop the following skills:
+
+- **Power BI**: for data modeling, cleaning, and dashboard creation.
+- **DAX**: to create calculated measures and KPIs.
+- **Data Modeling**: building logical relationships between fact and dimension tables.
+- **Dimensional Modeling**: designing a star schema structure to optimize analytics.
+- **Data Storytelling**: turning raw data into meaningful business insights.
+- **Visualization**: building interactive and insightful reports.
+
 
 ---
 
